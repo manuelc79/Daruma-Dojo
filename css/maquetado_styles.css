@@ -146,7 +146,7 @@ li {
 /* Contenido principal */
 .section1 {
     position: relative;
-    background: url(/img/fondo.jpg) no-repeat;
+    background: url(img/fondo.jpg) no-repeat;
     background-size: cover;
     background-position: top top;
     height: 100vh;
