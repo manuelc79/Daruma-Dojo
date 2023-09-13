@@ -219,7 +219,7 @@ li {
     color: #f2f2f2;
     padding: 40px;
     padding-right: 60px;
-    font-size:1.8em;
+    font-size:1.5em;
     text-align: justify;
 }
 
@@ -289,6 +289,10 @@ li {
         left: 2%;
         right: 2%;
         top: 2%;
+    }
+
+    .sobre-nosotros {
+        font-size: 2em;
     }
 
 }
