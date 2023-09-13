@@ -87,7 +87,7 @@ a:hover {
     position: absolute;
 }
 
-/* Contenedores del menu lateral */
+/* Contenedores del menu lateral izquierdo */
 .principal__marco1 {
     position: fixed;
     width: 250px;
@@ -213,19 +213,36 @@ li {
 }
 
 .sobre-nosotros {
-  
-    left: 10%;
-    right: 10%;
-    top: 15%;
+    display: inline-flex;
+   
     background-color: rgba(0, 0, 0, 1);
     color: #f2f2f2;
-    padding: 20px;
-    left: 10%;
-    right: 10%;
-    top: 15%;
-    
-    padding: 20px;
+    padding: 40px;
+    padding-right: 60px;
+    font-size:1.8em;
+    text-align: justify;
 }
+
+.sobre-nosotros p {
+    margin: 5%;
+}
+
+.leer-mas {
+    color: red;
+    font-size: 1em;
+    margin: 5%;
+}
+
+.karate {
+    height: 100vh;
+    background-color: #f2f2f2;
+    color: #222;
+    padding: 40px;
+    padding-right: 60px;
+    font-size:1.5em;
+    text-align: justify;
+}
+
 
 /* Media Query */
 @media screen and (max-width: 870px) {
