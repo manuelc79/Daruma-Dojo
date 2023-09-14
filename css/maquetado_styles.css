@@ -230,17 +230,35 @@ li {
 .leer-mas {
     color: red;
     font-size: 1em;
-    margin: 5%;
+    
 }
 
 .karate {
     height: 100vh;
-    background-color: #f2f2f2;
+    background-color: #fff;
     color: #222;
     padding: 40px;
     padding-right: 60px;
     font-size:1.5em;
     text-align: justify;
+}
+
+.karate__texto__div{
+    position: absolute;
+    width: 60vw;
+}
+.karate__imagen-div{
+    display:flex;
+    position: relative;
+    width: 20vw;
+    left: 85%;
+    
+}
+
+.karate__imagen-div img {
+    width: 80%;
+    height: auto;
+    
 }
 
 
