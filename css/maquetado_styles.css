@@ -313,9 +313,16 @@ li {
         top: 2%;
     }
 
-    .sobre-nosotros {
+    .sobre-nosotros,
+    .karate__texto__div,
+    .kobudo__texto__div {
         font-size: 2em;
         padding: 2%;
+    }
+
+    .karate__imagen-div,
+    .kobudo__imagen__div {
+        display: none;
     }
 
 }
