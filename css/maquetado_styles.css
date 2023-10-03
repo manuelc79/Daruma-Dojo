@@ -233,32 +233,36 @@ li {
     
 }
 
-.karate {
-    height: 100vh;
-    background-color: #fff;
-    color: #222;
-    padding: 40px;
-    padding-right: 60px;
-    font-size:1.5em;
-    text-align: justify;
+/* Estilo para el contenedor de karate y kobudo */
+.karate, .kobudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-size: 1.5em;
+    padding: 20px;
 }
 
-.karate__texto__div{
-    position: absolute;
-    width: 60vw;
-}
-.karate__imagen-div{
-    display:flex;
-    position: relative;
-    width: 20vw;
-    left: 85%;
-    
+/* Estilos para el texto en ambos contenedores */
+.karate__texto__div,
+.kobudo__texto__div {
+    flex: 1;
+    padding-right: 20px;
 }
 
-.karate__imagen-div img {
-    width: 80%;
+/* Estilos para la imagen en ambos contenedores */
+.karate__imagen-div img,
+.kobudo__imagen__div img {
+    width: 15vw; /* Ajusta el ancho de la imagen según tus necesidades */
     height: auto;
-    
+}
+
+/* Estilos para las imágenes para alinear a la derecha */
+.karate__imagen-div,
+.kobudo__imagen__div {
+    flex: 0 0 auto;
 }
 
 
