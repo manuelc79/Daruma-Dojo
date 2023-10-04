@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/normalize.css" type="text/css">
     <link type="image/x-icon" rel="shortcut icon" href="../img/ico_logo_mini.png">
     <link rel="stylesheet" href="css/maquetado_styles.css" type="text/css">
+    <link rel="stylesheet" href="css/galeria.css">
     <title>Daruma Dojo</title>
 </head>
 <body>
@@ -34,7 +35,7 @@
                         <li><a href="#karate">Karate-Do</a></li>
                         <li><a href="#kobudo">Kobudo</a></li>
                         <li><a href="#">Sensei Gabriel Aramburu</a></li>
-                        <li><a href="galeria.html">Foto Galería</a></li>
+                        <li><a href="#photo-galery">Foto Galería</a></li>
                         <li><a href="#">Testimonio</a></li>
                         <li><a href="#">Contacto</a></li>
                     </ul>
@@ -119,10 +120,21 @@
                     <img src="../img/kobudo.jpg" alt="">
                 </div>
             </section>
-            
+            <Section class="photo-galery" id="photo-galery">
+                <div class="galeria">
+                    <div class="imagen-principal">
+                        <img src="img/galeria/0001.jpg" alt="Imagen Principal" id="fullImg">
+                    </div>
+                    <div class="lista-imagenes">
+                        <div class="carrusel" id="carrusel"></div>
+                    </div>
+                </div>
+            </Section>
         </div>
     </main>
     <footer></footer>
     <script src="js/script.js"></script>
+    <script src="js/galeria.js"></script>
+    <script src="js/carrusel.js"></script>
 </body>
 </html>
