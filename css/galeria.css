@@ -7,6 +7,10 @@
 
 .galeria {
     padding: 16px;
+    
+}
+.imagen-principal {
+    width: 600px;
 }
 
 .imagen-principal img {
@@ -25,18 +29,29 @@
 .lista-imagenes img {
     display: block;
     object-fit: cover;
+    opacity: 50%;
+    transition: .3s;
+    filter: grayscale(50%);
     width: 100px;
     height: 100px;
-    margin-right: 5px;
+    
 }
 
 .lista-imagenes img:hover {
-    transform: scale(1.2);
+    opacity: 100%;
+    margin-top: -5px;
+    filter: grayscale(0%);
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
     cursor: pointer;
+}
+
+.lista-imagenes img:active {
+    transform: scale(.8);
 }
 
 .lista-imagenes {
     display: flex;
     overflow-y: auto;
     margin-top: 10px;
+    padding-left: 0;
 }
