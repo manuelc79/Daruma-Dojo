@@ -10,9 +10,16 @@
 }
 
 .imagen-principal img {
-    width: 80%;
+    height: 80vh;
     object-fit: cover;
     display: block;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+
+
 }
 
 .lista-imagenes img {
